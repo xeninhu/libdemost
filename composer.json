@@ -1,0 +1,21 @@
+{
+    "name": "composer_exemple",
+    "description": "Projeto de testes para utilização do composer",
+    "authors": [
+        {
+            "name": "Diógenes",
+            "email": "diogenes.duarte@prodeb.ba.gov.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.8",
+        "kevinlebrun/slug.php": "1.*",
+        "slim/slim": "2.*"
+    },
+    
+    "autoload" : {
+	    "psr-4": {
+	         "PRODEB\\DemComposer\\": "src/"
+	    }
+	}
+}
